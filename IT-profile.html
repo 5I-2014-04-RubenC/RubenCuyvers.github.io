@@ -1,0 +1,181 @@
+
+<!DOCTYPE>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="src/jquery.percentageloader-0.1.js"></script>
+    <link rel="stylesheet" href="src/jquery.percentageloader-0.1.css"></script>
+</head>
+<body>
+            <nav>
+        <ul>
+                <li>
+                    <a href="Index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Tasks</a>
+                    <ul>
+                        <li>
+                            <a href="Case%20Study.html">Case Study</a>
+                        </li>
+                        <li>
+                            <a href="IT%20Autobiography.html">IT-Autobiography</a>
+                        </li>
+                        <li>
+                            <a href="IT-profile.html">IT-profile</a>
+                        </li>
+                        <li>
+                            <a href="subtitles.html">Subtitles</a>
+                        </li>
+                        <li>
+                            <a href="Teacher-Aid.html">Teacher Aid</a>
+                        </li>
+                        <li>
+                            <a href="workflow.html">Workflow</a>
+                        </li>
+
+                    </ul>
+                    <li>
+                        <a href="#">Stage</a>
+                        <ul>
+                            <li>
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="pigeon.html">Pigeon</a>
+                            </li>
+                            <li>
+                                <a href="Netwerk.html">Netwerkschema</a>
+                            </li>
+                             <li>
+                                <a href="huisstijl.html">Huisstijl</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                </li>
+     
+    </ul>        
+    </nav>
+<div class="container">
+    <div class="content">
+        <h1>IT-profile</h1>
+            <table style="width:700">
+                  <tr>
+                    <td colspan="2"><h2>Softwareontwikkeling en-pakketten</h2></td>
+                  </tr>
+                    <tr>
+                    <td><h3>C#</h3></td>
+                    <td><h3>html en css</h3></td>
+                    </tr>
+                  <tr>
+                    <td><div id="CLoader"></div></td>
+                    <td><div id="htmlencssLoader"></div></td> 
+                  </tr>
+                    <tr>
+                    <td><h3>jquery</h3></td>
+                    <td><h3>javascript</h3></td>
+                    </tr>
+                    <tr>
+                        <td><div id="jqueryLoader"></div></td>
+                        <td><div id="javascriptLoader"></div></td>
+                    </tr>
+                  <tr>
+                    <td colspan="2"><h2>Systeem-en netwerkbeheer</h2></td>
+                  </tr>
+                  <tr>
+                    <tr>
+                    <td><h3>Windows</h3></td>
+                    <td><h3>Windows server</h3></td>
+                    </tr>
+                    <tr>
+                        <td><div id="windowsLoader"></div></td>
+                        <td><div id="windowsserverLoader"></div></td>
+                    </tr> 
+                  </tr>
+                    <tr>
+                    <tr>
+                    <td><h3>Hardware</h3></td>
+                    <td><h3></h3></td>
+                    </tr>
+                    <tr>
+                        <td><div id="hardwareLoader"></div></td>
+                        <td></td>
+                    </tr>
+                    </tr>
+                </table>
+            </div>
+</div>
+                
+
+          <style>
+
+      
+      #CLoader {
+        width: 256px;
+        height: 256px;
+        margin-bottom: 32px;
+        margin: auto;
+      }
+        #htmlencssLoader {
+        width: 256px;
+        height: 256px;
+        margin-bottom: 32px;
+        margin: auto;
+      }
+       #jqueryLoader {
+        width: 256px;
+        height: 256px;
+        margin-bottom: 32px;
+        margin: auto;
+      }
+        #javascriptLoader {
+        width: 256px;
+        height: 256px;
+        margin-bottom: 32px;
+        margin: auto;
+      }
+        #windowsLoader {
+        width: 256px;
+        height: 256px;
+        margin-bottom: 32px;
+        margin: auto;
+      }
+       #windowsserverLoader {
+        width: 256px;
+        height: 256px;
+        margin-bottom: 32px;
+        margin: auto;
+      }
+        #hardwareLoader {
+        width: 256px;
+        height: 256px;
+        margin-bottom: 32px;
+        margin: auto;
+      }
+      
+      #table {
+          align-content: center;
+      }
+      
+    </style>
+       <script>
+        $(function() {
+          var $Loader = $("#CLoader").percentageLoader({width: 256, height: 256, controllable : false, progress : 0.7 });});      
+        $(function() {
+          var $Loader = $("#htmlencssLoader").percentageLoader({width: 256, height: 256, controllable : false, progress : 0.7 });}); 
+        $(function() {
+          var $Loader = $("#jqueryLoader").percentageLoader({width: 256, height: 256, controllable : false, progress : 0.2 });});      
+        $(function() {
+          var $Loader = $("#javascriptLoader").percentageLoader({width: 256, height: 256, controllable : false, progress : 0.4 });}); 
+        $(function() {
+          var $Loader = $("#windowsLoader").percentageLoader({width: 256, height: 256, controllable : false, progress : 0.85 });}); 
+        $(function() {
+          var $Loader = $("#windowsserverLoader").percentageLoader({width: 256, height: 256, controllable : false, progress : 0.5 });}); 
+                   $(function() {
+          var $Loader = $("#hardwareLoader").percentageLoader({width: 256, height: 256, controllable : false, progress : 0.75 });}); 
+           
+           
+      </script>

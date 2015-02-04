@@ -1,0 +1,130 @@
+@font-face {
+    font-family: FontUbuntu;
+    src: url(ubuntu-font-family-0.80/Ubuntu-B.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: FontUbuntu;  
+    margin: 0;
+    padding: 0;
+    
+}
+p{
+    padding-bottom: 10;
+}
+
+
+body{
+	width: 900;
+	margin: 0 auto;
+    background-color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 20;
+    border-bottom-width:medium;
+    border-bottom-style:groove;
+    border-bottom-color: #0B6ACD;
+}
+h2{
+   color:  #0B6ACD;
+    
+}
+h3{
+    color:white;
+    text-align: center;
+}
+h6{
+    border-bottom-width: thin;
+    border-bottom-color: "white";
+    border-bottom-style:groove;
+}
+
+.content{
+    width: 700px;
+    margin-right: 100px;
+    margin-left: 100px;    
+    margin-top:100px;
+    color:white;
+    padding-top: 50
+}
+.container{
+    margin-top: 100px;
+    width: 900px;
+    min-height: 100%;
+    background-color: white;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: calc(100% - 100px);
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: ;
+    height: 100px;
+    z-index: 300;
+    
+}
+nav ul {
+	background: #efefef; 
+	background: linear-gradient(top,white 0%, beige 100%);  
+	background: -moz-linear-gradient(top,white 0%, beige 100%); 
+	background: -webkit-linear-gradient(top,white 0%, beige 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+    margin: 0 auto;
+	display: block;
+    width: 900px;
+}
+    nav ul ul {
+        display: none;
+        width: 250px;
+    }
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+nav ul li {
+	float: left;
+    width: 250;
+    align-content: center;
+    text-align: center;
+}
+	nav ul li a {
+		display: block; padding: 25px 40px;
+		color: #757575; text-decoration: none;
+	}
+    nav ul ul {
+	background: beige; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+        text-align: left;
+        color: #6b727c;
+}
+	nav ul li:hover {
+		background: #BBCE72;
+}
+    nav ul li:hover > ul {
+     display: block;
+}
+	nav ul li:hover a {
+			color: #fff;
+}
